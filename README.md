@@ -1,17 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-## REACT-QUILL REUSABLE COMPONENT
+## React-quill reusable component
 
-## npm install react-quill --save
+### npm install react-quill --save
 
-## EDIT THE index.html - Browser Bundle
-## <link rel="stylesheet" href="https://unpkg.com/react-quill@1.3.3/dist/quill.snow.css">
-## <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-## <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-## <script src="https://unpkg.com/react-quill@1.3.3/dist/react-quill.js"></script>
-## <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-## <script type="text/babel" src="/my-scripts.js"></script>
+**EDIT THE index.html - Browser Bundle**
+### <link rel="stylesheet" href="https://unpkg.com/react-quill@1.3.3/dist/quill.snow.css">
+### <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+### <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+### <script src="https://unpkg.com/react-quill@1.3.3/dist/react-quill.js"></script>
+### <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+### <script type="text/babel" src="/my-scripts.js"></script>
 
 ## Available Scripts
 
