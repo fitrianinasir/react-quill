@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class App extends React.Component {
 
   handleChange = async (value) => {
     this.setState({ text: value });
-    console.log(this.state.text);
+    document.getElementById('example').innerHTML = this.state.text
   };
 
   render() {
@@ -56,6 +56,9 @@ class App extends React.Component {
           modules={this.modules}
           formats={this.formats}
         ></ReactQuill>
+        <div id="example">
+
+        </div>
       </div>
     );
   }
